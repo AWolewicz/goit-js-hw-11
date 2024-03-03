@@ -1,0 +1,123 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.hidden {
+    display: none;
+}
+
+.body {
+    background-image: url(./images/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #dcdcdc;
+    padding-top: 30px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 60px;
+    color: #99ff00;
+    padding-top: 50px;;
+}
+
+.head-container {
+    display: flex;
+    gap: 30px 30px;
+    flex-direction: column;
+}
+
+.input-field {
+    width: 350px;
+    border: 1 solid #99ff00;
+    border-radius: 25px;
+    background-color: #ccffcc;
+    font-size: 16px;
+    padding: 15px;
+}
+
+button {
+    display: flex;
+    border: 1 solid #99ff00;
+    border-radius: 25px;
+    background-color: #ccffcc;
+    color: #2f4f4f;
+    align-items: center;
+    cursor: pointer;
+    text-align: center;
+    justify-content: center;
+    background-color: initial;
+    box-shadow: rgba(57, 31, 91, 0.24) 0 2px 2px;
+    font-size: 16px;
+    padding: 18px 18px;
+    vertical-align: baseline;
+}
+
+button:hover {
+    background-image: linear-gradient(#99ff00, #416d00 50%);
+    color: #fff;
+}
+
+.search-container {
+    width: 500px;
+    background-color: #ccffcc;
+    opacity: 80%;
+    border-radius: 42px;
+    margin: auto;
+    -webkit-box-shadow: 11px 11px 17px -6px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 11px 11px 17px -6px rgba(0, 0, 0, 0.75);
+    box-shadow: 11px 11px 17px -6px rgba(0, 0, 0, 0.75);
+    margin-bottom: 50px;
+    margin-top: 25px;
+}
+
+.search-form {
+    display: flex;
+    gap: 20px;
+    padding: 18px 18px;
+}
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 25px;
+}
+
+.gallery__item {
+    width: 400px;
+    height: 350px;
+    overflow: hidden;
+}
+
+.gallery__image {
+    height: 70%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.info {
+    display: flex;
+    gap: 5px;
+    padding: 15px;
+}
+
+.photo-card {
+    width: 400px;
+    height: 400px;
+    box-shadow: 11px 11px 17px -6px rgba(0, 0, 0, 0.75);
+    background-color: rgb(251, 251, 251, 0.5);
+}
+
+.load-more {
+    margin: auto;
+}
+
+.button-wrapper {
+    padding: auto;
+}
